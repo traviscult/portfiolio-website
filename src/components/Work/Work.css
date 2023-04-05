@@ -1,0 +1,15 @@
+.selected-works {
+  background-color: rgb(11, 16, 17);
+  color: #fff;
+  padding: 50px;
+}
+
+p {
+  color: black;
+}
+.top-group {
+  padding: 20px;
+}
+.bottom-group {
+  padding: 20px;
+}
