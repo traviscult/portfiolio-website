@@ -12,8 +12,9 @@ const Header = () => {
             <img
               className="img-responsive img-travis"
               src={require("../../assets/img/Travis.jpg")}
+              alt="Travis Cultreri"
             />
-            <h3>Full Stack Web Devloper.</h3>
+            <h3>Full Stack Web Developer.</h3>
           </div>
         </Container>
         <Button
