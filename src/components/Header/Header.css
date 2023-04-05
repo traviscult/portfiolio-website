@@ -1,0 +1,15 @@
+.page-header {
+  background-image: url("../../assets/img/landing-header.jpg");
+  height: 80vh;
+}
+.name {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
+}
+.img-travis {
+  width: 40vw;
+}
+h3 {
+  padding: 15px;
+}
