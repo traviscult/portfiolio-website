@@ -16,8 +16,8 @@ h1 {
   font-size: 6vh;
 }
 .card-description {
-  max-width: 25vw;
-  max-height: 25vh;
+  /* max-width: 25vw; */
+  /* max-height: 25vh; */
   margin: 10px auto 0;
 }
 .author {
