@@ -107,29 +107,33 @@ const Works = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="reddit-minimal-react-app.netlify.app/"
+                  href="https://traviscult.github.io/Date-Night/"
                 >
                   <img
+                    class="card-img-top embed-responsive-item"
                     alt="Reddit Minimal Home Page"
-                    src={require("../../assets/img/landing-header.jpg")}
+                    src={require("../../assets/img/date-night.jpg")}
                   />
                 </a>
               </div>
             </Card>
             <Card.Body>
               <a
-                href="https://reddit-minimal-react-app.netlify.app/"
-                onClick={(e) => e.preventDefault()}
+                href="https://traviscult.github.io/Date-Night/"
+                // onClick={(e) => e.preventDefault()}
               >
                 <div className="author">
-                  <Card.Title tag="h4">Reddit Minimal</Card.Title>
+                  <Card.Title tag="h4">Date Night</Card.Title>
                   <h6 className="card-category">Application</h6>
                 </div>
               </a>
               <p className="card-description text-center">
-                This application allows you browse and search Reddit. With the
-                use of React all elements are dynamicly dispalyed and Redux.js
-                manages state.
+                Have you ever asked your date what they wanted to eat and they
+                respond back with the dreaded "I don't know, what do you want to
+                eat?" Or do you just want to surprise your date and show them
+                are sophisticated and culturally diverse you are? Or do you want
+                to add culturally diversity to your recipe book? This is the
+                website for you!
               </p>
             </Card.Body>
             <Card.Footer className="gitHubBtn">
@@ -137,7 +141,7 @@ const Works = () => {
                 variant="light"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/traviscult/reddit-minimal"
+                href="https://github.com/traviscult/Date-Night"
               >
                 <FaGithub />
               </Button>
