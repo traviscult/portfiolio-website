@@ -11,22 +11,18 @@ const Works = () => {
           <Col med="4">
             <Card className="card-avatar">
               <div>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="reddit-minimal-react-app.netlify.app/"
-                >
-                  <img
-                    alt="Reddit Minimal Home Page"
-                    src={require("../../assets/img/landing-header.jpg")}
-                  />
-                </a>
+                <img
+                  class="card-img-top embed-responsive-item"
+                  alt="Reddit Minimal Home Page"
+                  src={require("../../assets/img/reddit-minimal-app.jpg")}
+                />
               </div>
             </Card>
             <Card.Body>
               <a
+                target="_blank"
                 href="https://reddit-minimal-react-app.netlify.app/"
-                onClick={(e) => e.preventDefault()}
+                // onClick={(e) => e.preventDefault()}
               >
                 <div className="author">
                   <Card.Title tag="h4">Reddit Minimal</Card.Title>
