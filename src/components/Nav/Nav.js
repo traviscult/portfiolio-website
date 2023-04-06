@@ -6,12 +6,12 @@ import "./Nav.css";
 
 const IndexNavbar = () => {
   return (
-    <div>
-      <Navbar bg="dark" variant="dark">
+    <div className="navBar">
+      <Navbar variant="dark">
         <Container>
           <Nav className="container-fluid">
             <Nav.Link
-              className="ml-auto"
+              className="ms-auto"
               href="https://www.linkedin.com/in/travis-cultreri/"
               target="_blank"
             >
