@@ -1,96 +1,141 @@
 import "./Work.css";
-import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
+import { Card, Container, Col, Row, Button } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
 
 const Works = () => {
   return (
     <div className="selected-works">
-      <CardGroup className="top-group">
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
-      <CardGroup className="bottom-group">
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+      <h1>Selected Works</h1>
+      <Container>
+        <Row>
+          <Col med="4">
+            <Card className="card-avatar">
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="reddit-minimal-react-app.netlify.app/"
+                >
+                  <img
+                    alt="Reddit Minimal Home Page"
+                    src={require("../../assets/img/landing-header.jpg")}
+                  />
+                </a>
+              </div>
+            </Card>
+            <Card.Body>
+              <a
+                href="https://reddit-minimal-react-app.netlify.app/"
+                onClick={(e) => e.preventDefault()}
+              >
+                <div className="author">
+                  <Card.Title tag="h4">Reddit Minimal</Card.Title>
+                  <h6 className="card-category">Application</h6>
+                </div>
+              </a>
+              <p className="card-description text-center">
+                This application allows you browse and search Reddit. With the
+                use of React all elements are dynamicly dispalyed and Redux.js
+                manages state.
+              </p>
+            </Card.Body>
+            <Card.Footer className="gitHubBtn">
+              <Button
+                variant="light"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/traviscult/reddit-minimal"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Footer>
+          </Col>
+          <Col med="4">
+            <Card className="card-avatar">
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="reddit-minimal-react-app.netlify.app/"
+                >
+                  <img
+                    alt="Reddit Minimal Home Page"
+                    src={require("../../assets/img/landing-header.jpg")}
+                  />
+                </a>
+              </div>
+            </Card>
+            <Card.Body>
+              <a
+                href="https://reddit-minimal-react-app.netlify.app/"
+                onClick={(e) => e.preventDefault()}
+              >
+                <div className="author">
+                  <Card.Title tag="h4">Reddit Minimal</Card.Title>
+                  <h6 className="card-category">Application</h6>
+                </div>
+              </a>
+              <p className="card-description text-center">
+                This application allows you browse and search Reddit. With the
+                use of React all elements are dynamicly dispalyed and Redux.js
+                manages state.
+              </p>
+            </Card.Body>
+            <Card.Footer className="gitHubBtn">
+              <Button
+                variant="light"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/traviscult/reddit-minimal"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Footer>
+          </Col>
+          <Col med="4">
+            <Card className="card-avatar">
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="reddit-minimal-react-app.netlify.app/"
+                >
+                  <img
+                    alt="Reddit Minimal Home Page"
+                    src={require("../../assets/img/landing-header.jpg")}
+                  />
+                </a>
+              </div>
+            </Card>
+            <Card.Body>
+              <a
+                href="https://reddit-minimal-react-app.netlify.app/"
+                onClick={(e) => e.preventDefault()}
+              >
+                <div className="author">
+                  <Card.Title tag="h4">Reddit Minimal</Card.Title>
+                  <h6 className="card-category">Application</h6>
+                </div>
+              </a>
+              <p className="card-description text-center">
+                This application allows you browse and search Reddit. With the
+                use of React all elements are dynamicly dispalyed and Redux.js
+                manages state.
+              </p>
+            </Card.Body>
+            <Card.Footer className="gitHubBtn">
+              <Button
+                variant="light"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/traviscult/reddit-minimal"
+              >
+                <FaGithub />
+              </Button>
+            </Card.Footer>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

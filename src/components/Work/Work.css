@@ -1,15 +1,28 @@
 .selected-works {
   background-color: rgb(11, 16, 17);
-  color: #fff;
   padding: 50px;
+  color: rgb(182, 184, 184);
 }
-
-p {
-  color: black;
+.card-avatar {
+  max-width: 25vw;
+  max-height: 25vh;
+  margin: 10px auto 0;
+  border-radius: 25px;
+  overflow: hidden;
 }
-.top-group {
-  padding: 20px;
+h1 {
+  /* color: #fff; */
+  margin-bottom: 50px;
 }
-.bottom-group {
-  padding: 20px;
+.card-description {
+  max-width: 25vw;
+  max-height: 25vh;
+  margin: 10px auto 0;
+}
+.author {
+  margin-top: 15px;
+  color: rgb(182, 184, 184);
+}
+.gitHubBtn {
+  margin: 20px;
 }
