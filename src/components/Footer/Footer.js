@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <Container className="contact">
         <Row>
-          <Col className="ml-auto mr-auto">
+          <Col>
             <h2 className="text-center contact-title">Get in Touch</h2>
             <Form className="contact-form">
               <Row>

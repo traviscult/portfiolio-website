@@ -1,7 +1,9 @@
 .contact {
   color: rgb(102, 97, 91);
-  margin: 100px;
   font-family: "Montserrat", sans-serif;
+  display: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .contact-title {
   font-size: 5vh;
